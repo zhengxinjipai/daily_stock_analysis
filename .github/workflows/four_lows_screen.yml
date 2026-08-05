@@ -1,0 +1,49 @@
+name: A股四低点全市场筛选
+
+on:
+  push:
+    branches:
+      - chatgpt-four-lows-screen-20260806-v2
+    paths:
+      - tools/four_lows_screen.py
+      - .github/workflows/four_lows_screen.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  PYTHONIOENCODING: utf-8
+
+jobs:
+  screen:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: chatgpt-four-lows-screen-20260806-v2
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run full-market screen
+        run: python tools/four_lows_screen.py
+
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add results/four_lows
+          git diff --cached --quiet || git commit -m "Generate four-lows full-market screening results"
+          git push origin HEAD:chatgpt-four-lows-screen-20260806-v2
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: four-lows-screen-results
+          path: results/four_lows/
+          retention-days: 30
