@@ -1,0 +1,51 @@
+name: Top100 Investment Research Data
+
+on:
+  push:
+    branches:
+      - chatgpt-top100-research-20260806
+    paths:
+      - tools/top100_codes.csv
+      - tools/top100_research.py
+      - .github/workflows/top100_research.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-top100-research-20260806
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install data packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install --upgrade akshare pandas numpy
+      - name: Collect market financial technical and news data
+        env:
+          TZ: Asia/Shanghai
+          PYTHONIOENCODING: utf-8
+        run: python tools/top100_research.py
+      - name: Commit snapshot
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add results/top100_research || true
+          git diff --cached --quiet || git commit -m "Generate top100 investment research snapshot"
+          git push origin HEAD:chatgpt-top100-research-20260806
+      - name: Upload research data
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: top100-investment-research-data
+          path: results/top100_research/
+          retention-days: 30
