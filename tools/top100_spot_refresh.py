@@ -35,6 +35,9 @@ def ind(code):
     except Exception as e:o['hist_error']=f'{type(e).__name__}: {e}'
     return o
 
+def series(base,col):
+    return pd.to_numeric(base[col],errors='coerce') if col in base.columns else pd.Series(index=base.index,dtype='float64')
+
 def main():
     spot=None;errors=[]
     for name,fn in [('all',ak.stock_zh_a_spot_em),('comment',ak.stock_comment_em)]:
@@ -49,15 +52,16 @@ def main():
             rows.append(f.result())
             if i%20==0:print(i)
     indf=pd.DataFrame(rows)
+    indf.to_csv(OUT/'individual_raw.csv',index=False,encoding='utf-8-sig')
     base=CODES.merge(indf,on='code',how='left')
     if spot is not None and not spot.empty:
         spot=spot.copy();spot['代码']=spot['代码'].astype(str).str.zfill(6)
         use=['代码','最新价','涨跌幅','换手率','量比','市盈率-动态','市净率','总市值','流通市值','60日涨跌幅','年初至今涨跌幅']
         base=base.merge(spot[[c for c in use if c in spot.columns]],left_on='code',right_on='代码',how='left')
-    base['final_price']=pd.to_numeric(base.get('最新价'),errors='coerce').fillna(pd.to_numeric(base['individual_price'],errors='coerce')).fillna(pd.to_numeric(base['hist_close'],errors='coerce'))
-    base['final_market_cap']=pd.to_numeric(base.get('总市值'),errors='coerce').fillna(pd.to_numeric(base['individual_market_cap'],errors='coerce'))
-    base['final_float_market_cap']=pd.to_numeric(base.get('流通市值'),errors='coerce').fillna(pd.to_numeric(base['individual_float_market_cap'],errors='coerce'))
+    base['final_price']=series(base,'最新价').combine_first(series(base,'individual_price')).combine_first(series(base,'hist_close'))
+    base['final_market_cap']=series(base,'总市值').combine_first(series(base,'individual_market_cap'))
+    base['final_float_market_cap']=series(base,'流通市值').combine_first(series(base,'individual_float_market_cap'))
     base.to_csv(OUT/'top100_spot_refresh.csv',index=False,encoding='utf-8-sig')
-    diag={'time':datetime.now().astimezone().isoformat(),'all_spot_rows':0 if spot is None else len(spot),'final_price':int(base.final_price.notna().sum()),'final_market_cap':int(base.final_market_cap.notna().sum()),'errors':errors}
+    diag={'time':datetime.now().astimezone().isoformat(),'all_spot_rows':0 if spot is None else len(spot),'individual_rows':len(indf),'individual_market_cap':int(pd.to_numeric(indf.get('individual_market_cap'),errors='coerce').notna().sum()),'final_price':int(base.final_price.notna().sum()),'final_market_cap':int(base.final_market_cap.notna().sum()),'errors':errors}
     (OUT/'diagnostics.json').write_text(json.dumps(diag,ensure_ascii=False,indent=2),encoding='utf-8');print(json.dumps(diag,ensure_ascii=False,indent=2))
 if __name__=='__main__':main()
