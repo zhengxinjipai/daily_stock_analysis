@@ -1,0 +1,136 @@
+{
+  "snapshot_time": "2026-08-06T09:50:59.414831+08:00",
+  "stock_count": 100,
+  "spot_matches": 1,
+  "history_success": 99,
+  "news_success": 100,
+  "performance_tables": {
+    "h1_report": 282,
+    "h1_quick": 53,
+    "h1_forecast": 4821,
+    "q1_report": 5891,
+    "fy25_report": 11517
+  },
+  "top_quant": [
+    {
+      "quant_rank": 1,
+      "code": "300209",
+      "name": "行云科技",
+      "quant_score": 82.08671717171717
+    },
+    {
+      "quant_rank": 2,
+      "code": "300972",
+      "name": "万辰集团",
+      "quant_score": 71.02201243201245
+    },
+    {
+      "quant_rank": 3,
+      "code": "688256",
+      "name": "寒武纪",
+      "quant_score": 69.05180264180265
+    },
+    {
+      "quant_rank": 4,
+      "code": "605376",
+      "name": "博迁新材",
+      "quant_score": 67.72381895881895
+    },
+    {
+      "quant_rank": 5,
+      "code": "688629",
+      "name": "华丰科技",
+      "quant_score": 66.28238539238541
+    },
+    {
+      "quant_rank": 6,
+      "code": "603929",
+      "name": "亚翔集成",
+      "quant_score": 65.2991724941725
+    },
+    {
+      "quant_rank": 7,
+      "code": "300139",
+      "name": "晓程科技",
+      "quant_score": 62.42492074592073
+    },
+    {
+      "quant_rank": 8,
+      "code": "300718",
+      "name": "长盛轴承",
+      "quant_score": 60.82574592074593
+    },
+    {
+      "quant_rank": 9,
+      "code": "300857",
+      "name": "协创数据",
+      "quant_score": 60.63974747474749
+    },
+    {
+      "quant_rank": 10,
+      "code": "002384",
+      "name": "东山精密",
+      "quant_score": 60.63767676767677
+    },
+    {
+      "quant_rank": 11,
+      "code": "300486",
+      "name": "东杰智能",
+      "quant_score": 60.17980574980576
+    },
+    {
+      "quant_rank": 12,
+      "code": "002842",
+      "name": "翔鹭钨业",
+      "quant_score": 60.10358585858587
+    },
+    {
+      "quant_rank": 13,
+      "code": "300476",
+      "name": "胜宏科技",
+      "quant_score": 59.67393162393162
+    },
+    {
+      "quant_rank": 14,
+      "code": "002428",
+      "name": "云南锗业",
+      "quant_score": 59.647474747474746
+    },
+    {
+      "quant_rank": 15,
+      "code": "301128",
+      "name": "强瑞技术",
+      "quant_score": 58.965975135975135
+    },
+    {
+      "quant_rank": 16,
+      "code": "002716",
+      "name": "湖南白银",
+      "quant_score": 58.9389735819736
+    },
+    {
+      "quant_rank": 17,
+      "code": "605196",
+      "name": "华通线缆",
+      "quant_score": 58.696258741258745
+    },
+    {
+      "quant_rank": 18,
+      "code": "688309",
+      "name": "恒誉环保",
+      "quant_score": 58.398181818181826
+    },
+    {
+      "quant_rank": 19,
+      "code": "688519",
+      "name": "南亚新材",
+      "quant_score": 58.124040404040414
+    },
+    {
+      "quant_rank": 20,
+      "code": "300757",
+      "name": "罗博特科",
+      "quant_score": 57.89923076923077
+    }
+  ]
+}
