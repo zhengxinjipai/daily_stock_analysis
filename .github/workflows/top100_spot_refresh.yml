@@ -1,0 +1,42 @@
+name: Top100 Spot Refresh
+on:
+  push:
+    branches: [chatgpt-top100-research-20260806]
+    paths:
+      - tools/top100_spot_refresh.py
+      - .github/workflows/top100_spot_refresh.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-top100-research-20260806
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install --upgrade akshare pandas
+      - name: Refresh current prices and market caps
+        env:
+          TZ: Asia/Shanghai
+          PYTHONIOENCODING: utf-8
+        run: python tools/top100_spot_refresh.py
+      - name: Commit results
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add results/top100_spot_refresh || true
+          git diff --cached --quiet || git commit -m "Refresh top100 current prices and market caps"
+          git push origin HEAD:chatgpt-top100-research-20260806
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: top100-spot-refresh
+          path: results/top100_spot_refresh/
+          retention-days: 30
