@@ -1,0 +1,101 @@
+﻿code,individual_error,hist_date,hist_close,hist_change_pct,hist_turnover,hist_amount,individual_price,total_shares,float_shares,individual_market_cap,individual_float_market_cap,individual_industry,listing_date,hist_error
+300476,JSONDecodeError: Expecting value: line 1 column 1 (char 0),2026-08-06,249.39,5.52,4.36,9255279048.32,,,,,,,,
+688183,JSONDecodeError: Expecting value: line 1 column 1 (char 0),2026-08-06,108.86,1.24,0.63,568171879.0,,,,,,,,
+603929,JSONDecodeError: Expecting value: line 1 column 1 (char 0),2026-08-06,163.5,2.65,1.45,493961733.0,,,,,,,,
+688313,,2026-08-06,115.52,0.79,2.19,1124989944.0,115.42,451986328.0,451986328.0,52168261977.76,52168261977.76,通信设备,20200812.0,
+688519,JSONDecodeError: Expecting value: line 1 column 1 (char 0),2026-08-06,264.86,5.04,1.51,913190798.0,,,,,,,,
+301396,,2026-08-06,200.09,0.6,9.84,2764359457.97,200.09,214924565.0,141506795.0,43004256210.85,28314094611.55,IT服务Ⅱ,20221111.0,
+301377,JSONDecodeError: Expecting value: line 1 column 1 (char 0),2026-08-06,424.66,2.06,2.13,874973634.37,,,,,,,,
+603256,JSONDecodeError: Expecting value: line 1 column 1 (char 0),2026-08-06,145.17,5.11,1.72,2146308386.0,,,,,,,,
+688585,JSONDecodeError: Expecting value: line 1 column 1 (char 0),2026-08-06,163.02,2.02,0.49,314284479.0,,,,,,,,
+300139,,2026-08-06,47.4,6.02,19.21,2133835307.47,47.42,274000000.0,233659225.0,12993080000.0,11080120449.5,贵金属,20101112.0,
+601869,,2026-08-06,322.03,3.08,2.17,2788547541.0,322.0,827905108.0,406338314.0,266585444776.0,130840937108.0,通信设备,20180720.0,
+688498,JSONDecodeError: Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+688195,JSONDecodeError: Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+603516,JSONDecodeError: Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+002384,,,,,,,188.0,1831607532.0,1386321723.0,344342216016.0,260628483924.0,元件,20100409.0,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+001267,,,,,,,36.99,785003428.0,608556558.0,29037276801.72,22510507080.420002,通信设备,20211117.0,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+301338,,,,,,,92.5,148960000.0,108535000.0,13778800000.0,10039487500.0,专用设备,20220816.0,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+688256,,,,,,,1144.2,628292969.0,628292969.0,718892815129.8,718892815129.8,半导体,20200720.0,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+688125,,,,,,,120.2,82425456.0,82203546.0,9907539811.2,9880866229.2,自动化设备,20220415.0,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+300469,,,,,,,59.18,248238824.0,248113799.0,14690773604.32,14683374624.82,软件开发,20150611.0,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+600113,JSONDecodeError: Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+300757,JSONDecodeError: Expecting value: line 1 column 1 (char 0),2026-08-06,472.38,-0.55,1.6,1212356193.0,,,,,,,,
+002290,,2026-08-06,57.13,1.38,1.04,143327214.85,57.13,248112330.0,247326818.0,14174657412.900002,14129781112.34,家电零部件Ⅱ,20090903.0,
+002565,,2026-08-06,10.06,6.34,7.26,772331876.88,10.06,1059988922.0,1059955172.0,10663488555.32,10663149030.32,包装印刷,20110318.0,
+002796,,2026-08-06,28.99,4.13,3.68,237270172.63,28.99,252366948.0,227708203.0,7316117822.5199995,6601260804.969999,通信设备,20160510.0,
+301209,,2026-08-06,49.18,-0.04,0.61,39745721.45,49.18,156800000.0,133956200.0,7711424000.0,6587965916.0,化学制品,20220825.0,
+300870,JSONDecodeError: Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+688028,,2026-08-06,83.91,6.22,2.84,346221806.0,83.91,150949000.0,150949000.0,12666130590.0,12666130590.0,通用设备,20190722.0,
+688027,JSONDecodeError: Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+301306,,2026-08-06,93.81,2.64,2.78,150294985.0,93.93,84400000.0,58262500.0,7927692000.000001,5472596625.0,军工电子Ⅱ,20220726.0,
+600105,,2026-08-06,36.98,1.18,4.76,2513503446.0,36.98,1461994802.0,1461994802.0,54064567777.96,54064567777.96,通信设备,19970929.0,
+300486,,2026-08-06,20.14,0.7,0.98,93136480.5,20.13,477148936.0,477005527.0,9605008081.68,9602121258.51,自动化设备,20150630.0,
+688525,JSONDecodeError: Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+300209,,,,,,,36.81,928636126.0,742908901.0,34183095798.06,27346476645.81,软件开发,20110426.0,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+300548,JSONDecodeError: Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+002379,,,,,,,18.91,13031118202.0,1136373753.0,246418445199.82,21488827669.23,工业金属,20100331.0,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+300475,,,,,,,150.67,469541767.0,450035767.0,70745858033.89,67806889013.88999,其他电子Ⅱ,20150610.0,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+000657,,,,,,,62.1,2278604400.0,1453452007.0,141501333240.0,90259369634.7,小金属,19961205.0,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+603308,,,,,,,48.3,679050729.0,679050729.0,32798150210.699997,32798150210.699997,通用设备,20140122.0,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+300749,JSONDecodeError: Expecting value: line 1 column 1 (char 0),2026-08-06,20.73,5.82,2.15,68800504.0,,,,,,,,
+688656,JSONDecodeError: Expecting value: line 1 column 1 (char 0),2026-08-06,86.85,-0.21,0.15,8337392.0,,,,,,,,
+688325,,2026-08-06,109.11,2.12,0.25,22357393.0,109.11,86466427.0,82181375.0,9434351849.97,8966809826.25,半导体,20220422.0,
+301326,JSONDecodeError: Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+605196,JSONDecodeError: Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+300972,JSONDecodeError: Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+300720,,2026-08-06,70.3,8.69,5.34,659924653.06,70.11,194877256.0,184145221.0,13662844418.16,12910421444.31,通用设备,20171106.0,
+002364,,2026-08-06,38.96,-0.13,1.53,329482799.13,38.98,563564960.0,558103760.0,21967762140.8,21754884564.8,其他电源设备Ⅱ,20100305.0,
+688629,JSONDecodeError: Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+301183,JSONDecodeError: Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+002052,JSONDecodeError: Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+002842,JSONDecodeError: Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+688227,,,,,,,83.46,113055275.0,113055275.0,9435593251.5,9435593251.5,IT服务Ⅱ,20211230.0,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+300102,,,,,,,18.83,920333863.0,915923732.0,17329886640.289997,17246843873.559998,光学光电子,20100812.0,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+300436,,,,,,,92.64,159267000.0,136721969.0,14754494880.0,12665923208.16,化学制药,20150422.0,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+301248,,,,,,,63.08,153705000.0,112328700.0,9695711400.0,7085694396.0,IT服务Ⅱ,20220420.0,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+300857,JSONDecodeError: Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+600410,JSONDecodeError: Expecting value: line 1 column 1 (char 0),2026-08-06,16.27,0.74,5.34,945587954.0,,,,,,,,
+603822,JSONDecodeError: Expecting value: line 1 column 1 (char 0),2026-08-06,59.0,0.68,0.23,10508617.0,,,,,,,,
+688622,JSONDecodeError: Expecting value: line 1 column 1 (char 0),2026-08-06,104.38,-3.53,0.46,33199132.0,,,,,,,,
+688011,JSONDecodeError: Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+002046,JSONDecodeError: Expecting value: line 1 column 1 (char 0),2026-08-06,46.36,2.23,0.84,202708054.2,,,,,,,,
+000533,,2026-08-06,12.11,-4.65,9.12,764499415.81,12.11,690816000.0,684902400.0,8365781760.0,8294168064.0,电网设备,19940103.0,
+300806,JSONDecodeError: Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+605376,,2026-08-06,163.81,3.91,4.04,1695255909.0,163.52,261600000.0,261600000.0,42776832000.0,42776832000.0,金属新材料,20201208.0,
+688702,,2026-08-06,369.38,5.4,2.46,1795818876.0,369.38,410000000.0,202991783.0,151445800000.0,74981104804.54,半导体,20230914.0,
+000833,JSONDecodeError: Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+300731,JSONDecodeError: Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+301018,,,,,,,84.57,374281339.0,282822899.0,31652972839.229996,23918332568.429996,通用设备,20210707.0,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+001309,,,,,,,382.42,226845658.0,165029754.0,86750316532.36,63110678524.68,半导体,20220701.0,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+600289,,,,,,,4.43,631052069.0,565922684.0,2795560665.6699996,2507037490.12,通信服务,20000720.0,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+603667,,,,,,,55.63,383151922.0,366202770.0,21314741420.86,20371860095.100002,通用设备,20161025.0,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+300658,,,,,,,10.68,332764105.0,220843860.0,3553920641.4,2358612424.7999997,个护用品,20170602.0,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+300718,JSONDecodeError: Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+300604,JSONDecodeError: Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+002837,JSONDecodeError: Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+002428,JSONDecodeError: Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+002716,,2026-08-06,8.9,1.48,6.63,1376647196.52,8.91,2823088646.0,2322475674.0,25153719835.86,20693258255.34,贵金属,20140128.0,
+301128,JSONDecodeError: Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+000962,JSONDecodeError: Expecting value: line 1 column 1 (char 0),2026-08-06,54.64,5.83,5.35,1433798444.83,,,,,,,,
+000973,,2026-08-06,12.47,-0.16,1.08,130124231.6,12.47,2458236766.0,967423171.0,30654212472.02,12063766942.37,塑料,20000525.0,
+688309,,2026-08-06,68.09,2.5,1.05,55822221.0,68.09,79401269.0,79401269.0,5406432406.21,5406432406.21,环保设备Ⅱ,20200714.0,
+301075,JSONDecodeError: Expecting value: line 1 column 1 (char 0),2026-08-06,56.29,1.26,0.38,16837468.02,,,,,,,,
+603618,,2026-08-06,26.65,1.64,7.79,1420873081.0,26.68,691375616.0,691375616.0,18445901434.88,18445901434.88,电网设备,20150217.0,
+603009,JSONDecodeError: Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+300342,,,,,,,36.0,425035113.0,418798863.0,15301264068.0,15076759068.0,家电零部件Ⅱ,20120726.0,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+300085,,,,,,,31.85,706640535.0,652012860.0,22506501039.75,20766609591.0,软件开发,20100526.0,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+300620,,,,,,,262.72,249180545.0,247103188.0,65464712782.40001,64918949551.36001,通信设备,20170310.0,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+001896,,,,,,,13.07,1525781330.0,1525781330.0,19941961983.100002,19941961983.100002,电力,19980122.0,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+300991,,,,,,,27.96,144000000.0,92142000.0,4026240000.0,2576290320.0,其他电子Ⅱ,20210520.0,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+300499,JSONDecodeError: Expecting value: line 1 column 1 (char 0),2026-08-06,28.27,1.33,2.57,193250653.8,,,,,,,,
+301285,JSONDecodeError: Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+600301,JSONDecodeError: Expecting value: line 1 column 1 (char 0),2026-08-06,49.06,3.37,3.0,403553665.0,,,,,,,,
+002851,,2026-08-06,119.63,2.69,3.1,1773902448.87,119.63,585010344.0,491689122.0,69984787452.72,58820769664.86,其他电源设备Ⅱ,20170306.0,
+688081,JSONDecodeError: Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+301550,JSONDecodeError: Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+300385,JSONDecodeError: Expecting value: line 1 column 1 (char 0),2026-08-06,11.26,-0.35,0.5,16434796.0,,,,,,,,
+300468,JSONDecodeError: Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+603663,,2026-08-06,38.78,4.08,3.42,774018905.0,38.79,593570127.0,593166927.0,23024585226.329998,23008945098.329998,化学原料,20160801.0,
+688607,,2026-08-06,43.39,3.53,2.06,69802374.0,43.39,88129027.0,79329027.0,3823918481.53,3442086481.53,医疗器械,20210201.0,
+920046,,,,,,,22.41,101150000.0,55927037.0,2266771500.0,1253324899.17,电网设备,20221013.0,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"

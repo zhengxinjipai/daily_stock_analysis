@@ -1,0 +1,11 @@
+{
+  "time": "2026-08-06T10:15:56.912186+08:00",
+  "all_spot_rows": 0,
+  "individual_rows": 100,
+  "individual_market_cap": 51,
+  "final_price": 70,
+  "final_market_cap": 51,
+  "errors": [
+    "all: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  ]
+}
